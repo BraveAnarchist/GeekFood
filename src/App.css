@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 2vh;
+  font-size: larger;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+nav a:hover{
+  color: #397beb;
+}
+nav a{
+  text-decoration: none;
+  color:white;
+}
+nav .btn{
+  background-color: #2563eb;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav .btn:hover{
+  background-color: rgb(6, 47, 108);
+}
+.hero .one:hover{
+  background-color: rgb(158, 20, 50) !important;
+}
+.contact .BN:hover{
+  background-color: white !important;
+  color: #4f46e5 !important;
+  border: 1px solid #4f46e5;
+}
+
+.hero{
+  height: 100vh;
+  margin-bottom: 10vh;
+  background: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+  background-size: cover;
+}
+.hero .container{
+  top: 35vh;
+  left:10vw;
+  position: relative;
+  color: black;
+  width: 38%;
+  font-size: x-large;
+}
+.hero .container h1,.hero .container h2{
+  font-size: 3rem;
+  text-align: center;
+}
+.hero .container p{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  line-height: 180%;
+  text-align: center;
+}
+.BN{
+  padding:12px 35px;
+  border-radius: 10px;
+  border: none;
+}
+.hero .container .BN{
+  margin-right: 2rem;
+}
+.contact{
+  padding: 4vh;
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+}
+.contact h2{
+  font-size: xx-large;
+  margin-bottom: 2vh;
+}
+.contact .content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.contact .content div{
+  width:70%;
+  font-size: large;
+}
+.contact .pic{
+  height: 80vh;
+  width: 50vw;
+}
